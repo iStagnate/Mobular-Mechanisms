@@ -13,7 +13,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+// The value here should match an entry in the META-INF/mods.toml file pog champ
 @Mod(MobularMechanisms.MOD_ID)
 public class MobularMechanisms {
     public static final String MOD_ID = "mobularmechanisms";
