@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mobularmechanisms:mobius_block"
+    }
+  ],
+  "result": {
+    "item": "mobularmechanisms:mobius_ingot",
+    "count" : 9
+  }
+}

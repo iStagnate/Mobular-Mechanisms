@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mobularmechanisms:mobius_ingot"
+    }
+  },
+  "result": {
+    "item": "mobularmechanisms:mobius_block"
+  }
+}

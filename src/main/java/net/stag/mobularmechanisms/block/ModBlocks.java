@@ -25,7 +25,7 @@ public class ModBlocks {
 
 //mobius blocks
     public static final RegistryObject<Block> MOBIUS_BLOCK = registerBlock("mobius_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
     public static final RegistryObject<Block> MOBIUS_ORE = registerBlock("mobius_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -34,7 +34,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
     public static final RegistryObject<Block> RAW_MOBIUS_BLOCK = registerBlock("raw_mobius_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

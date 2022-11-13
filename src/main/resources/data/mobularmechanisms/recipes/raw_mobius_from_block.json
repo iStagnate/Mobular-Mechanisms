@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mobularmechanisms:raw_mobius_block"
+    }
+  ],
+  "result": {
+    "item": "mobularmechanisms:raw_mobius",
+    "count" : 9
+  }
+}

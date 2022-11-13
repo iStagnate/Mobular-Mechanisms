@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mobularmechanisms:mobius_ore",
+    "mobularmechanisms:deepslate_mobius_ore",
+    "mobularmechanisms:raw_mobius_block",
+    "mobularmechanisms:mobius_block"
+  ]
+}

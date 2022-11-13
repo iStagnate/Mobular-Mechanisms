@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+    "experience": 0.7,
+    "group": "mobius",
+    "ingredient": {
+      "item": "mobularmechanisms:raw_mobius"
+  },
+  "result": "mobularmechanisms:mobius_ingot"
+}
