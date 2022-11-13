@@ -1,4 +1,7 @@
 {
-  "item.mobularmechanisms.zircon": "Zircon",
-  "item.mobularmechanisms.finger_of_death": "Finger Of Death"
+  "item.mobularmechanisms.mobius_ingot": "Mobius Ingot",
+  "item.mobularmechanisms.finger_of_death": "Finger Of Death",
+  "item.mobularmechanisms.raw_mobius": "Raw Mobius",
+
+  "itemGroup.mobularmechanismstab": "Mobular Mechanisms"
 }
