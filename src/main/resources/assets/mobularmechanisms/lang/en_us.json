@@ -3,5 +3,10 @@
   "item.mobularmechanisms.finger_of_death": "Finger Of Death",
   "item.mobularmechanisms.raw_mobius": "Raw Mobius",
 
+  "block.mobularmechanisms.mobius_block": "Mobius Block",
+  "block.mobularmechanisms.mobius_ore": "Mobius Ore",
+  "block.mobularmechanisms.deepslate_mobius_ore": "Deepslate Mobius Ore",
+  "block.mobularmechanisms.raw_mobius_block": "Raw Mobius Block",
+
   "itemGroup.mobularmechanismstab": "Mobular Mechanisms"
 }

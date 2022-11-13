@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mobularmechanisms:block/mobius_block"
+  }
+}
