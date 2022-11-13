@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.stag.mobularmechanisms.MobularMechanisms;
+import net.stag.mobularmechanisms.block.custom.LifeBlock;
 import net.stag.mobularmechanisms.item.ModCreativeModeTab;
 import net.stag.mobularmechanisms.item.ModItems;
 
@@ -23,7 +24,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MobularMechanisms.MOD_ID);
 
-//mobius blocks
+//mobius ore related blocks
     public static final RegistryObject<Block> MOBIUS_BLOCK = registerBlock("mobius_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
@@ -36,7 +37,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_MOBIUS_BLOCK = registerBlock("raw_mobius_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
-
+//gadget blocks
+public static final RegistryObject<Block> LIFE_BLOCK = registerBlock("life_block",
+        () -> new LifeBlock(BlockBehaviour.Properties.of(Material.METAL)
+                .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOBULAR_MECHANISMS);
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
